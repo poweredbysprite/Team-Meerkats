@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /*navigation*/
+  
+  .nav-container {
+    background: #4c566a;
+    height: 120px;
+  }
+  
+  .wrapper {
+    max-width: 1428px;
+    margin: auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  .nav-items li {
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  .nav-items li:nth-last-of-type(1) {
+    margin-right: 30px;
+  }
+  
+  .nav-items li a {
+    color: #2e3440;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+  
+  .nav-items li:nth-child(2) {
+    background-color: #ea918d;
+    padding: 5px;
+    border-radius: 25px;
+  }
+  
+  .nav-items li:nth-child(1) {
+    padding: 5px;
+  }
+
+  /* Secondary Navigator */
+
+  .secondaryNav-container {
+    background: #ECEFF4;
+    height: 85px;
+  }
+
+  .wrapper2 {
+    max-width: 1428px;
+    margin: auto;
+  }
+  
+  .secondaryNav-items li {
+    list-style: none;
+    margin-right: 100px;
+    margin-bottom: 23px;
+    margin-left: -50px;
+  }
+
+  .secondaryNav-items li a {
+    color: #2e3440;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+  
+  .secondaryNav-items li:nth-child(3) {
+    background-color: #D8DEE9;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .secondaryNav-items li:nth-child(1) {
+    padding: 10px;
+  }
+
+  .secondaryNav-items li:nth-child(2) {
+    padding: 10px;
+  }
+
+  h1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 75px;
+  margin-top: 50px;
+}
+
+  /* Content */
+
+  .hero-container {
+    color: #2e3440;
+  }
+
+  .contentTitle {
+    position: relative;
+    width: 1428px;
+    height: 1138px;
+    margin-top: 50px;
+    background: #2E3440;
+    border-radius: 25px;
+  }
+
+  .contentDesc {
+    position: relative;
+    width: 1428px;
+    height: 1138px;
+    margin-top: 50px;
+    background: #2E3440;
+    border-radius: 25px;
+  }
