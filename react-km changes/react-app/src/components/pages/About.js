@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import AboutSection from '../AboutSection';
 
 export default function About() {
-  return <h1 className='about'>ABOUT PAGE</h1>;
+  return (
+    <>
+      <AboutSection />
+    </>
+
+
+  );
 }
