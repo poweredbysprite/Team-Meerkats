@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.contents {
+    position: relative;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 75px;
+    color: #2E3440;
+    margin: 0 250px;
+    
+}
+
+.mainImg {
+    max-width:100%;
+    height:auto;
+    margin-top: 50px;
+  }

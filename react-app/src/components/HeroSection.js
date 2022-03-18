@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import search from './Search.svg';
-import create from './Create.svg';
-import saved from './Saved.svg';
-import Featured from './Featured Itenararies.svg';
-import Popular from './Popular Activities.svg';
-import NearMe from './Near me.svg';
+import search from './SVG-Items/Search.svg';
+import create from './SVG-Items/Create.svg';
+import saved from './SVG-Items/Saved.svg';
+import Featured from './SVG-Items/Featured Itenararies.svg';
+import Popular from './SVG-Items/Popular Activities.svg';
+import NearMe from './SVG-Items/Near me.svg';
 
 
 function HeroSection() {

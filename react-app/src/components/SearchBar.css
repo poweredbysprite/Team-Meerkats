@@ -1,28 +1,28 @@
-/* .searchInputs {
+.searchInputs {
     margin-top: 105px;
     display: flex;
   }
   
-  .search input {
+   .search input {
     background-color: white;
     border: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     font-size: 18px;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    width: 500px;
+    width: 70vh;
   }
 
-  .search {
+  /* .search {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-  }
+    height: 50vh;
+  } */
   
   .searchIcon {
     height: 70px;
@@ -30,32 +30,27 @@
     background-color: white;
     display: grid;
     place-items: center;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
   
   input:focus {
     outline: none;
   }
   .searchIcon svg {
-    font-size: 70px;
-    background-color: white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-
+    font-size: 35px;
   }
   
   .dataResult {
-    position: relative;
+    display: block;
     margin-top: 0px;
-    width: 500px;
+    width: 70vh;
     height: 200px;
     background-color: white;
     overflow: hidden;
     overflow-y: auto;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; 
   }
   
   .dataResult::-webkit-scrollbar {
@@ -77,10 +72,10 @@
     text-decoration: none;
   }
   
-  a:hover {
+  .dataItem:hover {
     background-color: lightgrey;
   }
   
   #clearBtn {
     cursor: pointer;
-  } */
+  } 
