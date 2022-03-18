@@ -6,7 +6,7 @@ import './HeroSection.css';
 import search from './Search.svg';
 import create from './Create.svg';
 import saved from './Saved.svg';
-import Featured from './Feature Itenararies.svg';
+import Featured from './Featured Itenararies.svg';
 import Popular from './Popular Activities.svg';
 import NearMe from './Near me.svg';
 
