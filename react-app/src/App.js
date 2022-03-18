@@ -8,7 +8,7 @@ import Products from './components/pages/Products';
 import Login from './components/pages/Login';
 import CreateIntinerary from './components/pages/CreateItinerary';
 import SearchActivities from './components/pages/SearchActivities';
-import ViewSavedItineraries from './components/pages/ViewSavedItinerary';
+import ViewSavedItinerary from './components/pages/ViewSavedItinerary';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/createItinerary' component={CreateIntinerary} />
           <Route path='/searchActivities' component={SearchActivities} />
-          <Route path='/viewSavedItineraries' component={ViewSavedItinerary} />
+          <Route path='/viewSavedItinerary' component={ViewSavedItinerary} />
         </Switch>
       </Router>
     </>

@@ -20,17 +20,17 @@ function HeroSection() {
                     <h1>Sugar and Spice and Everything Nice</h1>
                     
                     <div class="header-icons">
-                      <a href="#">
+                      <Link to='/searchActivities' className='icon-links'>
                         <img src={search} alt="" srcset="" className='mainImg'/>
-                      </a>
+                      </Link>
 
-                      <a href="#">
+                      <Link to='/createItinerary' className='icon-links'>
                         <img src={create} alt="" srcset="" className='mainImg'/>
-                      </a>
+                      </Link>
 
-                      <a href="#">
+                      <Link to='/viewSavedItinerary' className='icon-links'>
                         <img src={saved} alt="" srcset="" className='mainImg'/>
-                      </a>
+                      </Link>
                     </div>
                     
                 </div>
