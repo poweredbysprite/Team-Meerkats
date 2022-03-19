@@ -9,7 +9,5 @@ export default function About() {
       <AboutSection />
       <Footer />
     </>
-
-
   );
 }

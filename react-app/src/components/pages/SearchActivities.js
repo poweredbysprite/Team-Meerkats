@@ -14,11 +14,3 @@ function SearchActivities() {
 }
 
 export default SearchActivities
-
-// font-family: Lato;
-// font-style: normal;
-// font-weight: bold;
-// font-size: 96px;
-// line-height: 75px;
-// margin-top: 17.5%;
-// margin-left: 150px;
