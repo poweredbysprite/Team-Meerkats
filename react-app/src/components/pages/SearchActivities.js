@@ -7,7 +7,7 @@ function SearchActivities() {
 
   return (
     <>
-      <h1>Search Activity</h1>
+      <h1 style={{textAlign: "center"}}>Search Activity</h1>
       <SearchBar placeholder="Enter an Activity Name..." data={BookData} />
     </>
   )
