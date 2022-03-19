@@ -10,7 +10,10 @@
 .createItinerary,
 .login,
 .searchActivities,
-.viewSavedItinerary {
+.viewSavedItinerary,
+.activitiesNearMe,
+.featuredItineraries,
+.popularActivities {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -55,6 +58,33 @@
 } 
 
 .searchActivities {
+  /* background-image: url('../public/Images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} 
+
+.activitiesNearMe {
+  /* background-image: url('../public/Images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} 
+
+.featuredItineraries {
+  /* background-image: url('../public/Images/img-8.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} 
+
+.popularActivities {
   /* background-image: url('../public/Images/img-8.jpg'); */
   background-position: center;
   background-size: cover;

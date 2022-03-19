@@ -17,7 +17,7 @@ function HeroSection() {
         <div class="wrapper">
             <header>
                 <div class="main-content">
-                    <h1>Sugar and Spice and Everything Nice</h1>
+                    <h1>Sugar, Spice and Everything Nice</h1>
                     
                     <div class="header-icons">
                       <Link to='/searchActivities' className='icon-links'>
@@ -37,16 +37,26 @@ function HeroSection() {
             </header>
 
             <div class="firsttwo">
+
                 <div class="featured-itinerary">  
-                  <img src={Featured} alt="" srcset="" className='mainImg'/>
+                  <Link to='/featuredItineraries' className='icon-links'>
+                    <img src={Featured} alt="" srcset="" className='mainImg'/>
+                  </Link>
                 </div>
+
                 <div class="popular">
-                  <img src={Popular} alt="" srcset="" className='mainImg'/>
+                  <Link to='/popularActivities' className='icon-links'>
+                    <img src={Popular} alt="" srcset="" className='mainImg'/>
+                  </Link>
                 </div>
             </div>
+
             <div class="nearme">
+              <Link to='/activitiesNearMe' className='icon-links'>
                 <img src={NearMe} alt="" srcset="" className='mainImg'/>
+              </Link>
             </div>
+
         </div>
     </div>
   );
