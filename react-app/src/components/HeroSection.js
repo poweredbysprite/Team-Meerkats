@@ -37,7 +37,6 @@ function HeroSection() {
             </header>
 
             <div class="firsttwo">
-
                 <div class="featured-itinerary">  
                   <Link to='/featuredItineraries' className='icon-links'>
                     <img src={Featured} alt="" srcset="" className='mainImg'/>

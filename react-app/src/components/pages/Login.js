@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import LoginPage from "../LoginPage";
 
 export default function Login() {
   return (
     <>
-      <h1 className='login'>LOGIN PAGE</h1>
-      <Footer />
+      <LoginPage />
+      {/* <Footer /> */}
     </>
   );
 }
