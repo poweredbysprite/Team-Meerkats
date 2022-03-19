@@ -8,7 +8,7 @@
 .home,
 .about,
 .createItinerary,
-.login,
+/* .login, */
 .searchActivities,
 .viewSavedItinerary,
 .activitiesNearMe,
@@ -30,14 +30,14 @@
   height: 10%; 
 }
 
-.login {
+/* .login {
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-} 
+}  */
 
 .createItinerary {
 
